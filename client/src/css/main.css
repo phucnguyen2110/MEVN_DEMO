@@ -1,0 +1,131 @@
+#map{
+    width:100%; 
+    height:400px;
+}
+#pac-input{
+    margin-left: 1px; 
+    margin-top: 10px;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 10px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.controls {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    height: 33px;
+    margin-left: 17px;
+    margin-top: 10px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+.info-contact{
+    display: flex;
+    flex-direction: column;
+}
+.info-contact p{
+    margin-right: auto;
+    font-weight: 530;
+}
+.contain-search{
+    display: flex;
+}
+.btn-search{
+    margin-top:auto;
+    margin-left: 10px;
+}
+
+.img-hcmue {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.text-h4{
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: transparent;
+background-clip: text;
+font-weight: bold;
+line-height: 80px;
+}
+.container{
+height: 100vh;
+}
+.flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.category{
+    text-transform: uppercase;
+}
+.form-control{
+    width: 100%;
+    outline: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+span + span{
+    margin: 5px 5px 8px 0;
+}
+
+.asc,
+.desc{
+    margin: 5px 0 8px 5px;
+}
+
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.desc{
+    display: none;
+}
+@page {
+    size: 8in 10.25in;
+    margin: auto;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after:always;
+    }
+}
+
+@media (max-width: 46.25em) {
+    .excel,
+    .print,
+    .pdf{
+        display: none;
+    }
+}
+
